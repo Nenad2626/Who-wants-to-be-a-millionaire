@@ -1,0 +1,333 @@
+body  {
+
+background: #3B5998;
+
+}
+
+
+h1  {
+
+text-align: center;
+color: #FBBC05;	
+font-family: Verdana;
+cursor: context-menu;
+
+}
+
+h2  {
+
+text-align: center;
+color: #F5F5F1;
+font-family: Verdana;
+
+}
+
+h3  {
+
+cursor: pointer;
+
+}
+
+h5  {
+
+color: white;
+text-align: right;
+
+}
+
+h6  {
+
+visibility: hidden;
+
+}
+
+.pitanja  {
+
+cursor: context-menu;
+
+}
+
+.milionerTabla  {
+
+text-align: center;
+width: 700px;
+height: 300px;
+border: 1px solid #FFFFFF;
+border-radius: 5px;
+margin-left: 250px;
+background: #339933;
+
+}
+
+.odgovor  {
+
+width: 260px;
+height: 80px;
+border: 1px solid #FFFFFF;
+border-radius: 5px;
+display: inline-block;
+margin-left: 100px;
+text-align: center;
+font-family: Verdana;
+background: #6495ED;
+color: #FFFFFF;
+cursor: pointer;
+
+}
+
+
+.odgovori  {
+
+margin-right: 150px;
+
+}
+
+.milionerOdgovor  {
+
+list-style-type: upper-alpha;
+
+}
+
+.kviz  {
+
+border: none;
+font-size: 20px;
+margin-top: 22px;
+
+}
+
+.kviz:hover  {
+
+color: #FBBC05;
+
+}
+
+
+.raspored {
+
+position: absolute;
+width: 250px;
+height: 515px;
+border: 1px solid white;
+border-radius: 5px;
+left: 1000px;
+top: 120px;
+padding: 10px;
+color: white;
+text-align: center;
+font-family: Verdana;
+
+}
+
+ol  {
+
+text-align: center;
+list-style-position: inside;
+margin-left: -40px;
+
+}
+
+li  {
+
+border: 1px solid white;
+background: #6495ED;
+font-size: 18px;
+
+}
+
+.nulti  {
+
+visibility: hidden;
+
+}
+
+.iznos  {
+
+background: #34A853;
+
+}
+
+.pomoc {
+
+display: inline-block;
+width: 70px;
+height: 55px;
+font-family: Verdana;
+font-size: 40px;
+text-align: center;
+cursor: context-menu;
+
+}
+
+.osvojeno  {
+
+border: 1px solid white;
+color: #FBBC05;
+font-family: Verdana;
+font-size: 17px;
+text-align: center;
+outline: none;
+
+}
+
+.zagarantovanaSuma  {
+
+text-align: center;
+color: #FBBC05;	
+font-family: Verdana;
+
+}
+
+#odustati {
+
+padding: 10px;
+background: #3B5998;
+color: white;
+text-transform: uppercase;
+font-family: Verdana;
+font-size: 15px;
+position: absolute;
+left: 550px;
+top: 350px;
+visibility: hidden;
+
+}
+
+.potvrdaOdustajanja  {
+
+width: 200px;
+height: 100px;
+border: 1px solid olivedrab;
+border-radius: 5px;
+padding: 30px;
+position: relative;
+background: #3B5998;
+color: white;
+left: 210px;
+top: -120px;
+visibility: hidden;
+
+}
+
+
+.da, .ne  {
+
+background: white;
+color: black;
+font-family: Verdana;
+margin-left: 5px;
+padding: 5px;
+width: 70px;
+
+}
+
+.odgovorJeTacan  {
+
+
+}
+
+button  {
+
+outline: none;
+
+}
+
+.polaPola {
+
+background: url(PolaPola.png);
+background-size: cover;
+
+}
+
+.prijatelj {
+
+background: url(Prijatelj.png);
+background-size: cover;
+
+}
+
+.publika {
+
+background: url(Publika.png);
+background-size: cover;
+
+}
+
+.prvaPomoc, .drugaPomoc, .trecaPomoc  {
+
+visibility: hidden;
+
+}
+
+.prijateljOdgovara  {
+
+position: absolute;
+width: 300px;
+height: 350px;
+border: 1px solid white;
+border-radius: 5px;
+background: #3B5998;
+color: white;
+left: 455px;
+top: 115px;
+padding: 5px;
+text-align: left;
+font-family: Verdana;
+visibility: hidden;
+
+}
+
+.alarm  {
+
+font-family: Verdana;
+text-align: center;
+
+}
+
+.vreme, .vreme1  {
+
+display: inline-block;
+
+}
+
+.publika2  {
+
+position: absolute;
+width: 200px;
+height: 290px;
+border: 1px solid white;
+border-radius: 5px;
+background: #3B5998;
+color: white;
+left: 500px;
+top: 110px;
+padding: 5px;
+text-align: left;
+font-family: Verdana;
+visibility: hidden;
+
+}
+
+.publikaOdgovara {
+
+color: white;
+list-style-type: upper-alpha;
+list-style-position: decimal;
+margin-top: 30px;
+
+}
+
+.izadji  {
+
+text-align: center;
+font-family: Verdana;
+
+}
+
+.izlaz  {
+
+text-align: right;
+margin-top: -30px;
+cursor: context-menu;
+
+}
